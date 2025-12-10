@@ -1,0 +1,21 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/rnegash/adventofcode2026#readme",
+  "bugs": {
+    "url": "https://github.com/rnegash/adventofcode2026/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnegash/adventofcode2026.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "new-day": "mkdir ./$npm_config_day && touch ./$npm_config_day/index.ts && touch ./$npm_config_day/input.ts"
+  }
+}
